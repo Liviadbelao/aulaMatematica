@@ -1,4 +1,4 @@
-import NavFooter from "../navfooter/NavFooter"
+
 
 
 import Link from "next/link"
@@ -13,7 +13,7 @@ export const Footer =()=>{
     return(
     <div className={styles.container}>
 <div  className={styles.container2}>
-     <NavFooter titulo={'Cálculos Estátisticos'} />
+     <p>Calculos Estatisticos</p>
    
      </div>
    
