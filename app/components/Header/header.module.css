@@ -1,0 +1,24 @@
+.header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2.5%;
+    display: flex;
+    justify-content: space-between; /* Distribui os itens igualmente ao longo do cabeçalho */
+    align-items: center; /* Alinha verticalmente os itens ao centro */
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end; /* Alinha os links à direita */
+    flex-grow: 1; /* Permite que os links cresçam para ocupar todo o espaço disponível */
+}
+
+.linka {
+    padding: 8px 12px; /* Espaçamento interno dos links */
+    margin-left: 10px; /* Espaçamento entre os links */
+    border-radius: 6px;
+}
+
+.linka:hover {
+    color: #fff; /* Cor do texto ao passar o mouse */
+    background-color: rgba(222, 222, 222, 0.5); /* Cor de fundo ao passar o mouse */
+}

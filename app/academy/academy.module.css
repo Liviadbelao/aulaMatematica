@@ -1,0 +1,40 @@
+.mainDiv {
+    width: 80%;
+    max-width: 600px; /* Definindo uma largura máxima para evitar que o conteúdo se estique demais */
+    margin: 5.6% auto; /* Centralizando verticalmente e alinhando à esquerda */
+    padding: 40px;
+    background-color: black; /* Reduzindo a opacidade */
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.valores, .loginH2 {
+    color: #fff;
+    text-align: center;
+}
+
+.inp, .select {
+    width: calc(100% - 20px); /* Ajustando a largura do input e select para a largura da div principal */
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    background-color: transparent;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+}
+
+.btn {
+    display: block; /* Alterando para display block para ocupar a largura total */
+    width: calc(100% - 20px); /* Ajustando a largura do botão */
+    padding: 10px;
+    margin: 20px auto 0; /* Centralizando e adicionando margem na parte superior */
+}
+
+@media screen and (max-width: 768px) {
+    .mainDiv {
+        width: 90%;
+    }
+}

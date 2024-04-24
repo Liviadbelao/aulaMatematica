@@ -1,0 +1,37 @@
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 30px;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap; /* Permite que os elementos filhos quebrem para a próxima linha quando não houver espaço suficiente */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+}
+
+.img {
+    margin-top: 2%;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+}
+
+.titulo {
+    color: #fff;
+    margin: auto; /* Remove a margem padrão do título */
+    text-align: center;
+    /* Centraliza o texto */
+}
+
+.container2 {
+    border-left: 2px solid rgba(36, 59, 85, 1);
+    padding: 2%;
+    flex-basis: 100%; /* Define a largura base como 100%, fazendo com que ocupe toda a largura na mesma linha */
+}
+
+.container3 {
+    margin-top: 20px; /* Diminui a margem superior para um espaçamento mais adequado */
+    flex-basis: 100%; /* Define a largura base como 100%, para que ocupe toda a largura na mesma linha */
+}
+
+.icon {
+    color: #fff;
+    font-size: 24px; /* Diminui o tamanho do ícone para torná-lo mais proporcional */
+    margin-right: 10px; /* Adiciona um espaço entre o ícone e o texto */
+}

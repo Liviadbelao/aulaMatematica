@@ -1,0 +1,16 @@
+.actionsbutton {
+  background-color: #f1f1f1; /* Cor de fundo mais clara */
+  color: #333; /* Cor do texto mais escura */
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem; /* Espaçamento menor dentro do botão */
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.actionsbutton:hover {
+  background-color: #c9c9c9; /* Cor de fundo mais clara */
+}
+
+
